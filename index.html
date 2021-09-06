@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="index.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .result {
+        font-size: 30px;
+        background-color: turquoise;
+        margin-top: 100px;
+      }
+      body {
+        background-color: white;
+        text-align: center;
+      }
+      h1 {
+        margin-top: 200px;
+        font-size: 60px;
+      }
+      p {
+        font-size: 20px;
+      }
+      input {
+        width: 240px;
+        height: 20px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>일차함수 그래프</h1>
+    <form>
+      <p>첫번째 점 위치를 써주세요</p>
+      <input placeholder="1, 9" id="d1" />
+      <p>두번째 점 위치를 써주세요</p>
+      <input placeholder="1, 9" id="d2" />
+    </form>
+    <br />
+    <button onclick="{printName()}">식 확인하기</button>
+    <div>
+      <p class="result" id="result"></p>
+    </div>
+    <footer>개발자:오동현</footer>
+  </body>
+</html>
